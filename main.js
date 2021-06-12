@@ -6,7 +6,7 @@ function validate(dd,mm,yyyy){
     var ListofDays = [31,28,31,30,31,30,31,31,30,31,30,31];
 // Non-leap year case:
 
-    if (y==1 || y>2 && y<12)
+    if (y==1 || y>2 && y<=12)
   {
   if (x>ListofDays[y-1])
   {
