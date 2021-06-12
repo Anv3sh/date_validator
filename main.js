@@ -40,6 +40,12 @@ function validate(dd,mm,yyyy){
         alert('Invalid date format!');
         return false;
     }
+    if (((lyear==false) && (x<=28))||((lyear==true) && (x<=29)))
+    {
+      alert('Valid date format!');
+      return false;
+      
+    }
     
   }
   else
