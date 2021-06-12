@@ -45,9 +45,6 @@ function validate(dd,mm,yyyy){
   else
   {
   alert("Invalid date format!");
-  /*document.check.dd.focus();
-  document.check.mm.focus();
-  document.check.yyyy.focus();*/
   return false;
   }
 }
