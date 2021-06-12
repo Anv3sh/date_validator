@@ -25,7 +25,7 @@ function validate(dd,mm,yyyy){
   if (y==2)
   {
     var lyear = false;
-    if ( (!(z % 4) && (z % 100)) || !(z % 400)) 
+    if ( ((z % 4)===0 && (z % 100)===0) || (z % 400)===0) 
     {
         lyear = true;
     }
