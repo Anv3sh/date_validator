@@ -4,6 +4,7 @@ function validate(dd,mm,yyyy){
     var z= parseInt(yyyy.value);
 
     var ListofDays = [31,28,31,30,31,30,31,31,30,31,30,31];
+// Non-leap year case:
 
     if (mm==1 || mm>2)
   {
@@ -12,11 +13,19 @@ function validate(dd,mm,yyyy){
         alert('Invalid date format!');
         return false;
   }
+  else
+  {
+    alert('Valid date format!');
+    return false;
   }
+  }
+
+// Leap year case:
+
   if (mm==2)
   {
     var lyear = false;
-    if ( (!(yyyy % 4) && yyyy % 100) || !(yyyy % 400)) 
+    if ( ((yyyy % 4)==0 && (yyyy % 100)==0) || (yyyy % 400)==0) 
     {
         lyear = true;
     }
@@ -34,9 +43,9 @@ function validate(dd,mm,yyyy){
   else
   {
   alert("Invalid date format!");
-  document.check.dd.focus();
+  /*document.check.dd.focus();
   document.check.mm.focus();
-  document.check.yyyy.focus();
+  document.check.yyyy.focus();*/
   return false;
   }
 }
