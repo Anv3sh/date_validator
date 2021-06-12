@@ -25,11 +25,11 @@ function validate(dd,mm,yyyy){
   if (y==2)
   {
     var lyear = false;
-    if ( ((z % 4)===0 && (z % 100)===0) || (z % 400)===0) 
+    if ( (!(z % 4) && (z % 100)) || !(z % 400)) 
     {
         lyear = true;
     }
-    console.log(lyear);
+    //console.log(lyear);
     if ((lyear==false) && (x>=29))
     {
         alert('Invalid date format!');
