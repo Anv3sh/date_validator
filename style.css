@@ -9,6 +9,7 @@ body{
 }
 h1{
     font-weight: 400;
+    text-shadow:3px 3px #ccccff;
 }
 #page{
     text-align: center;
