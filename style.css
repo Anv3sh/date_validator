@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#page{
+    text-align: center;
+    margin-top: 160px;
+    padding-top:50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom:60px;
+    background-color:#c9c9c9;
+    border: #c9c9c9;
+    border-radius: 5px;
+    box-shadow: grey;
+}
+
+#username{
+    
+    width:200px;
+    height:35px;
+    border: 1px;
+    border-radius: 2.3px;
+    background-color:mintcream;
+    padding-left: 2.5px;
+}
+
+#password{
+    width:200px;
+    height:35px;
+    border: 1px;
+    border-radius:2.3px;
+    background-color: mintcream;
+    padding-left: 2.5px;
+}
+
+#submit{
+    color:floralwhite;
+    width:202.5px;
+    height: 35px;
+    font-size: 16.5px;
+    border:1px;
+    border-radius: 2.3px;
+    background-color:#009900;
+}
+#submit:hover{
+    filter: contrast(81%);
+}
+a{
+    color:#009900;
+    text-decoration: none;
+}
+
+a:hover{
+    filter:contrast(60%);
+}
+
+#no-login{
+    font-size: 13px;
+}
