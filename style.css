@@ -21,7 +21,7 @@ body{
     box-shadow: grey;
 }
 
-#username{
+#dd{
     
     width:200px;
     height:35px;
@@ -31,7 +31,16 @@ body{
     padding-left: 2.5px;
 }
 
-#password{
+#mm{
+    width:200px;
+    height:35px;
+    border: 1px;
+    border-radius:2.3px;
+    background-color: mintcream;
+    padding-left: 2.5px;
+}
+
+#yyyy{
     width:200px;
     height:35px;
     border: 1px;
@@ -59,8 +68,4 @@ a{
 
 a:hover{
     filter:contrast(60%);
-}
-
-#no-login{
-    font-size: 13px;
 }
