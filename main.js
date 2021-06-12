@@ -6,9 +6,9 @@ function validate(dd,mm,yyyy){
     var ListofDays = [31,28,31,30,31,30,31,31,30,31,30,31];
 // Non-leap year case:
 
-    if (mm==1 || mm>2)
+    if (y==1 || y>2)
   {
-  if (dd>ListofDays[mm-1])
+  if (x>ListofDays[y-1])
   {
         alert('Invalid date format!');
         return false;
@@ -22,19 +22,19 @@ function validate(dd,mm,yyyy){
 
 // Leap year case:
 
-  if (mm==2)
+  if (y==2)
   {
     var lyear = false;
-    if ( ((yyyy % 4)==0 && (yyyy % 100)==0) || (yyyy % 400)==0) 
+    if ( ((z % 4)==0 && (z % 100)==0) || (z % 400)==0) 
     {
         lyear = true;
     }
-    if ((lyear==false) && (dd>=29))
+    if ((lyear==false) && (x>=29))
     {
         alert('Invalid date format!');
         return false;
     }
-    if ((lyear==true) && (dd>29))
+    if ((lyear==true) && (x>29))
     {
         alert('Invalid date format!');
         return false;
