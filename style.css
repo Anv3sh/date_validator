@@ -18,8 +18,8 @@ h1{
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom:60px;
-    background-color:#c9c9c9;
-    border: #c9c9c9;
+    background-color:#d9d9d9;
+    border: #d9d9d9;
     border-radius: 5px;
     box-shadow: grey;
 }
@@ -63,7 +63,7 @@ h1{
     font-size: 16.5px;
     border:1px;
     border-radius: 2.3px;
-    background-color:#b3b3ff;
+    background-color:#9999ff;
 }
 #submit:hover{
     filter: contrast(81%);
