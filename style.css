@@ -63,16 +63,8 @@ h1{
     font-size: 16.5px;
     border:1px;
     border-radius: 2.3px;
-    background-color:#009900;
+    background-color:#b3b3ff;
 }
 #submit:hover{
     filter: contrast(81%);
-}
-a{
-    color:#009900;
-    text-decoration: none;
-}
-
-a:hover{
-    filter:contrast(60%);
 }
